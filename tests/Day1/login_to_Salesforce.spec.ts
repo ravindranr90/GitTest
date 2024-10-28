@@ -53,6 +53,8 @@ await page.locator('[name="Name"]').fill("Tina Acc");
 
 // 13. Click Save button using XPath
 console.log("Test GITHUB - Learning MERGE")
+
+    console.log("Test GITHUB - Learning two")
 await page.locator("//button[text()='Save']").click();
 
 //await page.click("[name='SaveEdit']");  Ramya's
