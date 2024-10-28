@@ -17,7 +17,7 @@ async function loginToSalesforce() {
   await page.fill('input[name="pw"]', 'your_password'); // Replace with your Salesforce password
   // Click the Login button
   await page.click('input[type="submit"]');
-
+console.log("COMMIT TEST")
   // Wait for 10 seconds
   await page.waitForTimeout(10000); // 10 seconds
 
