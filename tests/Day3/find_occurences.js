@@ -16,3 +16,4 @@ function countOccurrences(nums, k) {
 
 // Example call
 console.log(countOccurrences(nums, k)); // Output: 
+console.log(countOccurrences(nums, k)); // 
